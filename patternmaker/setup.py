@@ -11,7 +11,6 @@ with open("src/patternmaker/version.py") as fp:
     exec(fp.read(), pkg_vars)
 
 setup(
-    #name='galah',
     version=pkg_vars['__version__'],
     license='GNU-3.0',
     author='Amanda Buyan',
