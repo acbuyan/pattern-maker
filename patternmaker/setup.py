@@ -30,7 +30,9 @@ setup(
         'pillow',
         'pytest',
         'unittest2py3k',
-        'openpyxl'
+        'openpyxl',
+        'scikit-image'
+        # 'opencv-python'
     ],
 
     include_package_data = True,

@@ -40,5 +40,12 @@ class test_unit_tests_patternmaker(unittest2.TestCase):
         dmc_full = pm.get_dmc_full()
         self.assertGreater(dmc_full.shape[0],0)
 
+    def test_image_to_pattern_catch_error(self):
+        self.assertRaises(ValueError,pm.image_to_pattern())
+
+    def test_image_to_pattern_png(self):
+        pattern = pm.image_to_pattern()
+        self.assertNotEqual(pattern,None)
+
 if __name__ == '__main__':
     unittest2.main()

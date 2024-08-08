@@ -1,1 +1,0 @@
-dmc_spreadsheet_link = 'https://sarkystitches.wordpress.com/wp-content/uploads/2024/07/dmc-thread-inventory-sheet-by-lord-libidan-updated-july24-1.xlsx'
